@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.body {
+    font-family: "Montserrat", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom, rgba(82, 155, 134, 1), rgba(33, 64, 55, 1));
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    position: relative;
+    box-sizing: border-box;
+    max-width: 1200px;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+   
+
+}
+/*  padding: 20px; */
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 169px;
+   
+}
+/*  
+    */
+    /* max-width: 1100px;
+    width: 100vh;
+    height: 169px;
+    margin-top: 20px; */
+.rectangle1 {
+ position: relative;
+    width: 130px;
+    height: 130px;
+    background-color: #BC2F57;
+    top: 20px;
+    z-index: 10;
+      
+}
+.topheader {
+    position: absolute;
+    width: 1100px;
+    height: 60px;
+    background-color: #EFF4F7;
+    top: 55px;
+    display: flex;
+    z-index: 15;
+   
+    
+}
+.bigleaters{
+   position: absolute;
+    width: 96px;
+    height: 78px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #F5F5F5;
+    z-index: 15;
+    top: 111px;
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0.2));
+    
+    
+}
+.main-container {
+    position: relative;
+    background-color: #D9D9D9;
+    width: 1100px;
+    height: 725px;
+    display:flex;
+    flex-direction: column;
+   
+    top: 50px;
+    
+    
+}
+.expectation {
+   
+    color: #214037;
+    position: absolute;
+    width: 758px;
+    height: 78px;
+    left: 269px;
+    top: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    z-index: 15;
+
+}
+.Novel {
+    position: absolute;
+    width: 466px;
+    height: 156px;
+    left: 552px;
+    top: 70px;
+    color: #529B86;
+  
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 128px;
+    line-height: 156px;
+    z-index: 10;
+} 
+.midrect { 
+    position: absolute;
+    background-color: #F5F5F5;
+    width: 1000px;
+    height: 430px;
+    border: 1px solid black;
+    align-self: center;
+    bottom: 20px;
+    z-index: 5;
+
+}
+.text {
+    position: absolute;
+    bottom: 60px;
+    z-index: 10;
+    
+    color: #000;
+    width: 650px;
+    height: 72px;
+    left: 20px;
+}
+.btn-big {
+    position: absolute;
+    bottom: 10px;
+    z-index: 10;
+    left: 20px;
+    background-color: #F5F5F5;
+    width: 200px;
+    height: 50px;
+}
+.author-card {
+    position: absolute;
+    background-color: #BC2F57;
+    width: 490px;
+    height: 303px;
+    z-index: 30;
+    align-self: center;
+    top: 220px;
+}
+.btn-donate {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 10px;
+    left: 170px;
+    background-color: #BC2F57;
+    color: white;
+    border-color: white;
+}
+.stars {
+    position: absolute;
+    left: 170px;
+    bottom: 80px;
+}
+.foto {
+    position: absolute;
+   left: 180px;
+   top: 20px;
+}
+
